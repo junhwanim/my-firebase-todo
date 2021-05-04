@@ -1,0 +1,31 @@
+.todos-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  min-width: 13rem;
+  max-width: 13rem;
+  min-height: 15rem;
+  max-height: 15rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.card > :last-child {
+  margin-top: auto;
+}
+
+.card > :last-child > :last-child {
+  margin-left: auto;
+  margin-right: 0.75rem;
+}
+
+.dialog-inputs {
+  display: flex;
+  flex-direction: column;
+}

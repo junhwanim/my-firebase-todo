@@ -1,9 +1,17 @@
-import React from "react"
-import ReactDOM from 'react-dom'
-import App from "./App"
+import React from "react";
+import ReactDOM from "react-dom";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import App from "./App";
+import './styles.css'
 
-import {} from './firebase'
+import {} from "./firebase";
 
-const rootDiv = document.getElementById("root")
+const rootDiv = document.getElementById("root");
 
-ReactDOM.render(<App/>, rootDiv)
+ReactDOM.render(
+  <>
+    <CssBaseline />
+    <App />
+  </>,
+  rootDiv
+);
