@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "webpack serve --mode development",
+    "build": "webpack --mode=production",
     "deploy": "webpack && firebase deploy",
     "deploy:prod": "webpack --mode=production && firebase deploy"
   },

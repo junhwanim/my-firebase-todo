@@ -27,6 +27,6 @@ module.exports = {
     //   favicon: path.resolve(__dirname, "public", "favicon-16x16.png"),
     }),
     new Dotenv(),
-    // new BundleAnalyzerPlugin(),
+    new BundleAnalyzerPlugin(),
   ],
 };
