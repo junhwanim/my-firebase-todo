@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack serve --mode development"
+    "dev": "webpack serve --mode development",
+    "deploy": "webpack && firebase deploy",
+    "deploy:prod": "webpack --mode=production && firebase deploy"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.4",
